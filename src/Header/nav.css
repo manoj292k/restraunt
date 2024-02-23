@@ -1,0 +1,87 @@
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 400;
+}
+ nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: transparent;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: transparent;
+}
+nav ul li{
+    list-style: none;
+    padding: 5px ;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+}
+nav div{
+    gap: 10px;
+    display: flex;
+    background-color: transparent;
+
+}
+nav div button{
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    
+}
+.Button_1{
+    background-color: sandybrown;
+    border: none;
+
+}
+.Button_2{
+    border: 1px solid sandybrown;
+    background: transparent;
+    color: sandybrown;
+}
+
+
+@media only screen and (max-width: 800px) {
+.menubar{
+display: block;
+margin: 2%;
+z-index: 100;
+position: fixed;
+}
+.menubar button{
+    background: url(../images/menu.png ) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.mobile-menu{
+    width: 400px;
+    height: 100Vh;
+    background-color: #110c0c;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: -10px;
+}
+.mobile-menu li{
+    list-style: none;
+    background: transparent;
+    color: sandybrown;
+    font-size: x-large;
+    transition: 1s ease;
+}
+.mobile-menu a{
+    background-color: transparent;
+}
+}
