@@ -5,7 +5,7 @@ import App from './App';
 import  './Header/nav.css'
 import  './Home/homepage.css';
 import reportWebVitals from './reportWebVitals';
-
+import './footer/footer.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -48,13 +48,13 @@ function Home() {
 
 <div className="carousel-inner">
   <div className="carousel-item active">
-    <img src={Home_banner_mob1} alt="Los Angeles" className="d-block w-100" />
+    <img src={Home_banner_mob1} alt="mob_ban1" className="d-block w-100" />
   </div>
   <div className="carousel-item">
-    <img src={Home_banner_mob2} alt="Chicago" className="d-block w-100" />
+    <img src={Home_banner_mob2} alt="mobile_ban2" className="d-block w-100" />
   </div>
   <div className="carousel-item">
-    <img src={Home_banner_mob3} alt="New York" className="d-block w-100" />
+    <img src={Home_banner_mob3} alt="mobile_ban3" className="d-block w-100" />
   </div>
 </div>
 
@@ -143,7 +143,30 @@ function Home() {
     <li>Twb spl. Fried rice</li>
     <li>Golden fried Prawns</li>
 </div>
-
+</div>
+<div className='container-food'>
+  <div>
+    <h3>Dine-in</h3>
+    <span> Enjoy, Kalyana Pandhi Virundhu Experience! 1st Time In Chennai.</span>
+  </div>
+  <div>
+    <h3>Biryani By Degh</h3>
+    <span> Having a party? Call us! Introducing “Biryani by Degh” “Minimum Order” – 8 Kg (Serves 50 people) </span>
+  </div>
+</div>
+<div className='food-container'>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2023/12/cb-website.png' alt='types 0f food1' /> Chicken Biryani Virundhu</div>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2023/12/cb-website.png' alt='types 0f food2' /> Mutton Biryani Virundhu</div>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2023/12/cp.png' alt='types 0f food3' /> Premium Chicken Biryani</div>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2023/12/cp.png' alt='types 0f food4' /> Premium Mutton Biryani</div>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2022/03/7-2.png' alt='types 0f food5' /> Mutton Kola Urundai</div>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2022/03/8-1.png' alt='types 0f food6' /> Chicken 65</div>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2022/03/9.png' alt='types 0f food7' /> Mutton Milagu varuval</div>
+  <div> <img src='https://theweddingbiryani.com/wp-content/uploads/2022/03/10.png' alt='types 0f food8' /> Mutton Chukka</div>
+</div>
+<div className='button-food'>
+    <button className='button1'>Order Now</button>
+    <button className='button2'>Book Table</button>
 </div>
 <div className='event-box'>
     <div className='event-one'>
@@ -152,7 +175,21 @@ function Home() {
         <p>We undertake all types of catering orders across Chennai</p>
         <button>Enquire Availability</button>
     </div>
-
+</div>
+{/* -----------location container------------- */}
+<div className='location-container'>
+  <div> 
+    <h1>Location & Schedule</h1>
+    <p>Visit us at our restaurant and enjoy the best taste of biryani, served hot and fresh. From our kitchen, straight to your table. You can visit us at the provided location, anytime between 11 AM To 11 PM.</p>
+<button className='button1'>Order Now</button> <br/>
+<button className='button2'>Book a table</button>
+  </div>
+  <div className='map-container'>
+    <span>T.Nagar</span> <span>Velachery</span> <span>Anna Nagar</span>
+  <div>
+  <iframe title="Google Maps - Location in T. Nagar, Chennai, Tamil Nadu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.563685599658!2d80.22833264408555!3d13.042614549868787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526655a5da2371%3A0x4954f49743f04af0!2sT.%20Nagar%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1708699969797!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+  </div>
+  </div>
 </div>
     </>
   )

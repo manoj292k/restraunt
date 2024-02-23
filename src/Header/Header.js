@@ -16,8 +16,8 @@ function Header(){
   return(
 <> 
 <nav className="fluid-container">
-    <a>
-    <img src={<Logo/>} alt="Description of the image" />
+    <a href='/'>
+    <img src={<Logo/>} alt="logo" />
     </a>
     <ul>
       <li>About us</li>
@@ -35,8 +35,8 @@ function Header(){
   <button onClick={ToggleEvent}>E</button>
   {isOpen && (
         <ul className='mobile-menu'>
-          <a>
-    <img src={<Logo/>} alt="Description of the image" />
+          <a href='/'>
+    <img src={<Logo/>} alt="Description" />
     </a>
     <li>About us</li>
       <li>Catering</li>

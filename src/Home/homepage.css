@@ -199,12 +199,105 @@
     color: white;
     background-color: sandybrown;
 }
+.container-food{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
 
+}
+.container-food div{
+    width: 33%;
+    height: 300px;
+    border: 2px solid sandybrown;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 20px;
+    background:url(https://theweddingbiryani.com/wp-content/uploads/2023/12/cb-website.png) no-repeat ;
+    background-size: cover;
+    color: white;
+    
+}
+.container-food div h3{
+    color: sandybrown;
+    background-color: transparent;
+}
+.food-container{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.food-container div{
+    width: 20%;
+    height: 350px;
+    border: 2px solid sandybrown;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: sandybrown;
+    font-size: xx-large;
+    gap: 50px;
+    text-align: center;
+}
+.food-container div img{
+    width: 200px;
+    height: 150px;
+}
+.button-food{
+    width: 100%;
+    padding: 30px;
+    gap: 50px;
+    display: flex;
+}
+.location-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
 
+}
+.location-container div{
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.location-container div h1{
+    color: sandybrown;
+    font-size: 60px;
+    padding: 30px;
+}
+.location-container div p{
+    font-size: x-large;
+    color: white;
+}
+.location-container div button{
+    width: 180px;
+    
+}
+.map-container{
+ display: inline;
+}
+.map-container span{
+    color: sandybrown;
 
+}
+iframe{
 
-
-
+    width: 350px;
+    height: 350px;
+}
 @media only screen and (max-width: 800px) {
 
     nav{
@@ -271,5 +364,34 @@ overflow: scroll;
         align-items: center;
         background:url(../images/event_img1.jpg) no-repeat;
         background-size:100% 100%;
+    }
+    .container-food{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .container-food div{
+        width: 90%;  
+    }
+    .food-container{
+        gap:20px;
+    }
+    .food-container div{
+        width: 40%;
+        gap:40px;
+        height: 300px;
+        font-size: large;
+    }
+    .food-container div img{
+        width: 130px;
+    }
+    .location-container{
+        flex-direction: column;
+    }
+    .location-container div{
+        width: 90%;
+        align-items: center;
+    }
+    iframe{
+        width: 300px;
     }
 }
