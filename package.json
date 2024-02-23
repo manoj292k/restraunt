@@ -1,4 +1,4 @@
-{
+{"homepage":"https://manoj292k.github.io/Campusshoe:",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"pg-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
