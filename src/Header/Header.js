@@ -1,5 +1,6 @@
 import Logo from'../images/logo.png'
 
+
 import React,{useState} from 'react';
   
 
@@ -32,7 +33,7 @@ function Header(){
    
 </nav>
 <div className='menubar'>
-  <button onClick={ToggleEvent}>E</button>
+  <button onClick={ToggleEvent}><box-icon name='menu' color='#ffd532' ></box-icon> </button>
   {isOpen && (
         <ul className='mobile-menu'>
           <a href='/'>

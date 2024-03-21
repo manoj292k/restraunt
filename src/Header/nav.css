@@ -50,7 +50,9 @@ nav div button{
     background: transparent;
     color: sandybrown;
 }
-
+.menubar{
+    display: none;
+}
 
 @media only screen and (max-width: 800px) {
 .menubar{
@@ -60,7 +62,7 @@ z-index: 100;
 position: fixed;
 }
 .menubar button{
-    background: url(../images/menu.png ) no-repeat;
+    border: none;
     background-size: cover;
     border-radius: 5px;
     background-color: transparent;
